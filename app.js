@@ -43,7 +43,7 @@ const verificar = function () {
 
 if(datos1>datos2&& datos1>datos3){
 
-    document.getElementById("resultado").innerHTML = "el culpable es "+ nombres[0]+ " con un parentezco"+ datos1 +"%";
+    document.getElementById("resultado").innerHTML = "el culpable es "+ nombres[0]+ " con un parentezco "+ datos1 +"%";
 }
 if(datos2>datos1&& datos2>datos3){
 

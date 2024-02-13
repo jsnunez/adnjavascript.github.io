@@ -12,7 +12,7 @@
         "00101010101101110111",
         "00100010010000001001"];
         localStorage.setItem("data", JSON.stringify(lista));
-        
+
     </script>
 </head>
 
@@ -22,7 +22,7 @@
         <form id="calculadoraFormulario">
             <div class="form-group">
                 <label for="opernado1">adn sospechoso</label>
-                <input type="text" class="form-control" id="operando1" required>
+                <input type="number" min="0" max="1" class="form-control" id="operando1"  required >
       </div>
 
             <button type="button" class="btn btn-primary" onclick="verificar()">comparar</button>
